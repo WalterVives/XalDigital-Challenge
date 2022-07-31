@@ -50,7 +50,7 @@ Se tienen las siguientes tablas que contienen información referente hacia los v
 
 **Tablas:**
 
-- aerolineas
+- aerolíneas
 - aeropuertos
 - vuelos
 
@@ -148,7 +148,7 @@ INNER JOIN
 		DIA,
 		ID_AEROLINEA
 	ORDER BY
-		total) as table2
+		total) AS table2
 ON table1.ID_AEROLINEA = table2.ID_AEROLINEA
 ORDER BY total DESC;
 ```
